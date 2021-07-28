@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {LazyPanel} from './pages/sublevel1/sublevel2/LazyPanel';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <LazyPanel />
       </header>
     </div>
   );
